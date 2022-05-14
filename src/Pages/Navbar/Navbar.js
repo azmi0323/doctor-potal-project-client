@@ -72,9 +72,7 @@ const Navbar = () => {
               </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <Link to='/' className="btn">Get started</Link>
-        </div>
+        
       </div>
     </div>
   );
