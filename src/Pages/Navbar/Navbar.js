@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar my-4 bg-base-100">
+      <div className="navbar justify-between my-4 bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -28,51 +28,51 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to='/'>Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to='/about'>About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to='/appointment'>Appointment</Link>
+                <Link to="/appointment">Appointment</Link>
               </li>
               <li>
-                <Link to='/reviews'>Reviews</Link>
+                <Link to="/reviews">Reviews</Link>
               </li>
               <li>
-                <Link to='/contactUs'>Contact Us</Link>
+                <Link to="/contactUs">Contact Us</Link>
               </li>
               <li>
-                <Link to='/logIn'>Log In</Link>
+                <Link to="/logIn">Log In</Link>
               </li>
-              
             </ul>
           </div>
-          <Link to='/' className="btn btn-ghost normal-case text-xl">DoctorPortal</Link>
+          <Link to="/" className="btn btn-ghost normal-case text-xl">
+            DoctorPortal
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
-          <li>
-                <Link to='/'>Home</Link>
-              </li>
-              <li>
-                <Link to='/about'>About</Link>
-              </li>
-              <li>
-                <Link to='/appointment'>Appointment</Link>
-              </li>
-              <li>
-                <Link to='/reviews'>Reviews</Link>
-              </li>
-              <li>
-                <Link to='/contactUs'>Contact Us</Link>
-              </li>
-              <li>
-                <Link to='/logIn'>Log In</Link>
-              </li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/appointment">Appointment</Link>
+            </li>
+            <li>
+              <Link to="/reviews">Reviews</Link>
+            </li>
+            <li>
+              <Link to="/contactUs">Contact Us</Link>
+            </li>
+            <li>
+              <Link to="/logIn">Log In</Link>
+            </li>
           </ul>
         </div>
-        
       </div>
     </div>
   );

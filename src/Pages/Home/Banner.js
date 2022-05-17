@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={chair} alt=''
-            className="max-w-sm rounded-lg shadow-2xl">
+            className="max-w-lg rounded-lg shadow-2xl">
           </img>
           <div>
             <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
