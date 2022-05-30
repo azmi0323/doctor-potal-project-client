@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="mx-16">
       <div className="navbar justify-between my-4 bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
