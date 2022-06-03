@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import chair from '../../assets/images/chair.png'
-
+import './Banner.css'
 
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen">
+      <div className="hero min-h-screen px-12 bg-home">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={chair} alt=''
@@ -19,7 +19,7 @@ const Banner = () => {
               excepting exercitation quasi. In delegati eagle aut repudiate
               et a id nisi.
             </p>
-            <Link to='/appointment' className="btn btn-secondary text-white">Get Started</Link>
+            <Link to='/appointment' className="btn btn-secondary text-white font-bold bg-gradient-to-r from-secondary to-primary">Get Started</Link>
           </div>
         </div>
       </div>
