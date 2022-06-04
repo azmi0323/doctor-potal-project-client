@@ -3,6 +3,8 @@ import treatment from "../../assets/images/treatment.png";
 import PrimaryButton from "../Shared/PrimaryButton";
 
 const Treatment = () => {
+
+ 
   return (
     <div>
       <div className="hero min-h-screen">
@@ -18,7 +20,7 @@ const Treatment = () => {
           <img
             src={treatment}
             alt=""
-            className="img-fluid rounded-lg shadow-2xl"
+            className="w-96 rounded-lg shadow-2xl"
           ></img>
           
         </div>
