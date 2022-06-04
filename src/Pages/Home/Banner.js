@@ -6,7 +6,7 @@ import './Banner.css'
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen px-12 bg-home">
+      <div className="hero min-h-screen bg-home">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={chair} alt=''
