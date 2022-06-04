@@ -6,8 +6,8 @@ import Appointment from './Pages/Appointment/Appointment';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import Home from './Pages/Home/Home';
 import LogIn from './Pages/LogIn/LogIn';
-import Navbar from './Pages/Navbar/Navbar';
 import Reviews from './Pages/Reviews/Reviews';
+import Navbar from './Pages/Shared/Navbar';
 
 function App() {
   return (

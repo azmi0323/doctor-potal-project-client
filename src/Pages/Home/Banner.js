@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import chair from '../../assets/images/chair.png'
+import PrimaryButton from "../Shared/PrimaryButton";
 import './Banner.css'
 
 const Banner = () => {
@@ -19,7 +19,7 @@ const Banner = () => {
               excepting exercitation quasi. In delegati eagle aut repudiate
               et a id nisi.
             </p>
-            <Link to='/appointment' className="btn btn-secondary text-white font-bold bg-gradient-to-r from-secondary to-primary">Get Started</Link>
+            <PrimaryButton></PrimaryButton>
           </div>
         </div>
       </div>
