@@ -10,19 +10,19 @@ const Info = () => {
       <InfoCard
         cardTitle="Opening Hours"
         cardBody="We are open five days on an week. Please visit us."
-        bgclassName="bg-gradient-to-r from-secondary to-primary"
+        bgClass="bg-gradient-to-r from-secondary to-primary"
         img={clock}
       ></InfoCard>
       <InfoCard
         cardTitle="Visit our Locations"
         cardBody="Brooklyn, NY 10036, United States"
-        bgclassName="bg-accent"
+        bgClass="bg-accent"
         img={marker}
       ></InfoCard>
       <InfoCard
         cardTitle="Contact Us"
         cardBody="+880 1303 823282"
-        bgclassName="bg-gradient-to-r from-secondary to-primary"
+        bgClass="bg-gradient-to-r from-secondary to-primary"
         img={phone}
       ></InfoCard>
     </div>
