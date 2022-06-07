@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 import Banner from './Banner';
 import Info from './Info';
 import InputForm from './InputForm';
@@ -25,6 +26,7 @@ const Home = () => {
         </div>
         <div>
             <InputForm></InputForm>
+            <Footer></Footer>
         </div>
        </div>
     );
