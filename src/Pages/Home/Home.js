@@ -12,7 +12,7 @@ import Treatment from './Treatment';
 const Home = () => {
     return (
        <div>
-            <div className='px-12'>
+            <div >
             <Banner></Banner>
             <Info></Info>
             <Services></Services>
